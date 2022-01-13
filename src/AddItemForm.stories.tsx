@@ -12,7 +12,7 @@ export default {
             description:'callback',
         },
     },
-} as ComponentMeta<typeof AddItemForm>;
+} as  ComponentMeta<typeof AddItemForm>;
 
 const AddItemFormTemplate: ComponentStory<typeof AddItemForm> = (args) => <AddItemForm {...args} />;
 
